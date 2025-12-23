@@ -226,7 +226,7 @@ footer {
   padding: 40px 20px;
   background: linear-gradient(135deg, #e0f7fa, #ffe0b2);
   border-radius: 25px;
-  margin-top: 50px;
+  margin-top: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   overflow: hidden;
 }
@@ -337,9 +337,9 @@ footer {
 }
 
 .pelican-image {
-  height: 150px;
+  height: 300px;
   margin-bottom: 15px;
-  border-radius:15px;
+  border-radius:30px;
 }
 
 .pelican-quote {
