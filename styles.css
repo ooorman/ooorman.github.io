@@ -52,14 +52,6 @@ li::marker { color: gold;}
     overflow-y: auto;
 }
 
-/* Скрывать sidebar на мобильных */
-@media (max-width: 1430px) {
-    .sidebar {
-        display: none;
-    }
-}
-
-
 /* Заголовок и шапка */
 .header {
     width: 100%;
@@ -103,9 +95,7 @@ nav button {
 pagination_mobile a:hover {
     text-decoration: underline;
 }
-@media (min-width: 1431px) {
-  .pagination_mobile { display: none; }
-}
+
 /* Секции */
 .section {
     padding: 20px;
@@ -337,9 +327,11 @@ footer {
 }
 
 .pelican-image {
-  height: 300px;
   margin-bottom: 15px;
   border-radius:30px;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
 }
 
 .pelican-quote {
@@ -352,3 +344,18 @@ footer {
 }
 
 
+@media (min-width: 1431px) {
+  .pagination_mobile { display: none; }
+}
+/* Скрывать sidebar на мобильных */
+@media (max-width: 1430px) {
+    .sidebar {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+  .teachers-section::before,
+  .teachers-section::after {
+    display: none;
+  }
+}
