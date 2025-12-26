@@ -79,7 +79,7 @@ header h1 {
 
 .pagination_mobile a {
     color: black;
-    background:white;
+    background:#ffe0b2;
     display:block;
     margin-right:20px;
     border-radius:5px;
@@ -372,8 +372,8 @@ footer {
 }
 
 
-/* Стиль блока "Наши преподаватели" */
-.teachers-section {
+/* Уникальный стиль блока "Наши преподаватели" - переход */
+.teachers-section-trans {
   margin-top: 40px;
   padding: 40px 20px;
   background: linear-gradient(135deg, #ffe0b2, #f9d976);
@@ -385,7 +385,8 @@ footer {
   margin-right: auto;
 }
 
-.teachers-section h2 {
+/* Заголовок блока - переход */
+.teachers-section-trans h2 {
   font-family: 'Brush Script MT', cursive;
   font-size: 2.4em;
   margin-bottom: 10px;
@@ -393,13 +394,15 @@ footer {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.teachers-section p {
+/* Описание под заголовком - переход */
+.teachers-section-trans p {
   font-size: 1.2em;
   margin-bottom: 30px;
   color: #555;
 }
 
-.teachers-link {
+/* Кнопка-ссылка - переход */
+.teachers-link-trans {
   display: inline-block;
   padding: 15px 30px;
   font-size: 1.4em;
@@ -411,7 +414,7 @@ footer {
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.teachers-link:hover {
+.teachers-link-trans:hover {
   background-color: #a76b3a;
   transform: scale(1.05);
 }
